@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>AFIYA IS VERY GOOD</h1>
+    <button id ="stop">stop</button>
+
+    
+</body>
+<script>
+    const sayAfiya = function() {
+        console.log("afiya");
+        
+    }
+    const change = function () {
+    document.querySelector('h1').innerHTML= "saif" }
+     const newchange = setTimeout(change, 2000)
+
+    // setTimeout Method in async 
+
+    // clearTimeout 
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(newchange)
+        console.log("stopper")
+        //now hammad will not print
+    })
+
+
+
+</script>
+</html>
