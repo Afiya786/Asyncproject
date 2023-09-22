@@ -1,2 +1,4 @@
 # Asyncproject
-This is a  js project with async 
+set/clear timeout
+set/clear interval
+ 
